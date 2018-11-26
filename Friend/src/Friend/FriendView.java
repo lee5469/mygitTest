@@ -245,6 +245,7 @@ public class FriendView extends JFrame {
 	private JTextField getTfsearch() {
 		if (tfsearch == null) {
 			tfsearch = new JTextField();
+			
 			tfsearch.setBounds(101, 10, 155, 21);
 			tfsearch.setColumns(10);
 		}
